@@ -13,6 +13,8 @@ const BillBoard = () => {
             h-[56.25vw]
             object-cover
             brightness-[60%]
+            transition 
+            duration-500
             "
         autoPlay
         muted
@@ -89,6 +91,7 @@ const BillBoard = () => {
             More Info
           </button>
         </div>
+        
       </div>
     </div>
   );
